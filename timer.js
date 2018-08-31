@@ -39,8 +39,9 @@ function init(){
 	
 	printDate();
 	inActiveAll();
-	initialiseColourButtons();
+	
 	initialiseButtons();
+	initialiseColourButtons();
 	
 	
 }
