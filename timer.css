@@ -8,7 +8,7 @@ body{
 div{
 	float: left;
 	margin: 5%;
-	margin-top: 5%;
+	margin-top: 3%;
 	width: 40%;
 }
 @media only screen and (max-width: 640px) {
@@ -31,7 +31,7 @@ div{
 .body{
 	margin: 0;
 	width: 100%;
-	min-height: 240px;
+	min-height: 302px;
 	background-color: rgba(240,240,240,0.9);
 	border-radius: 0 12px 12px 12px;
 	border: 1px solid grey;
@@ -70,6 +70,23 @@ table{
 	width: 50%;
 	margin: 0;
 	text-align: center;
+}
+
+.refresh{
+	width: initial;
+	border: none;
+	background: none;
+	font-size: x-large;
+	
+}
+
+.rotated{
+	transition: transform 1s;
+	transform: rotate(360deg);
+}
+
+.hidden{
+	display: none;
 }
 
 #takeSpace{
